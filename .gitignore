@@ -1,0 +1,59 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Environment variables (never commit API keys!)
+*.env
+
+# Generated data files
+data/raw/EURUSD1.csv
+data/raw/EURUSD1440.csv
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Desktop executable configs
+eti_desktop.spec
+
+# Backup/old fix files from this session
+fix_init.py
+fix_init2.py
+fix_init3.py
+fix_init4.py
+
+# Inspection/script files
+inspect_data.py
+check_init.py
+check_pyinstaller.py
+check_syntax.py
+compile_check.py
+write_init.py
+read_init.py
+
+# Requirements and run scripts
+requirements.txt
+build_desktop.bat
+build_desktop.ps1
+build_exe.bat
+run_pytest.py
+run_pytest_direct.py
+run_test.bat
+run_tests.bat
+start_streamlit.bat
+
+# Test files
+test_imp.py
+test_import.py
+test_run.bat
+
+# OAuth/secrets
+.secrets/

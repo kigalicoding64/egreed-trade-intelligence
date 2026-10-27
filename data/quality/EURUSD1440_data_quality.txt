@@ -1,0 +1,63 @@
+======================================================================
+ETI DATA QUALITY REPORT
+======================================================================
+Generated: 2026-10-26T13:20:06.470678+00:00
+Source: EURUSD1440.csv
+Path: C:\Users\Blue Code technology\Downloads\ETI_working_core_v0_1\egreed-trade-intelligence\data\raw\EURUSD1440.csv
+SHA-256: 71beabb1cf8e029212e8bd50f4f1586aca2381870d68d313b07077fa09eec016
+Rows: 5018
+First timestamp: 2010-10-12 00:00:00
+Last timestamp: 2026-10-26 00:00:00
+Timezone: unverified_naive
+
+--- SOURCE IDENTITY / CONVENTIONS ---
+Source identity: unverified
+Candle boundary: unverified
+Volume semantics: unverified
+
+--- DOCUMENTATION ---
+Verified: none
+Unknown: source_timestamp_timezone, candle_boundary_convention, volume_semantics_tick_vs_actual, source_provider_identity
+Assumed: headerless_tab_delimited_ohlcv_format, columns_time_open_high_low_close_volume, daily_candle_boundary_at_00_00_source_local_provisional, fx_weekend_closure_duration_provisional
+
+--- VALIDATION ---
+Status: pass
+Duplicate timestamps: 0
+Missing values: 0
+Invalid OHLC rows: 0
+Negative volume rows: 0
+Largest time gap (s): 259200.0
+
+--- SOURCE ORDER CHECK ---
+Rows read: 5018
+Out-of-order rows: 0
+Monotonic non-decreasing: True
+
+--- SUSPICIOUS PRICE CHANGES ---
+Threshold: 5.0%
+Suspicious rows: 0
+Max abs return: 2.896215034305949%
+
+--- GAP ANALYSIS ---
+Total gaps: 837
+Largest gap (s): 259200.0
+Expected interval (s): 86400.0
+
+Top gaps:
+  72.00 h | likely_weekend_or_scheduled_closure_provisional (medium) | Gap duration (72.0 h) is consistent with a weekend or scheduled FX market closur
+  72.00 h | likely_weekend_or_scheduled_closure_provisional (medium) | Gap duration (72.0 h) is consistent with a weekend or scheduled FX market closur
+  72.00 h | likely_weekend_or_scheduled_closure_provisional (medium) | Gap duration (72.0 h) is consistent with a weekend or scheduled FX market closur
+  72.00 h | likely_weekend_or_scheduled_closure_provisional (medium) | Gap duration (72.0 h) is consistent with a weekend or scheduled FX market closur
+  48.00 h | likely_weekend_or_scheduled_closure_provisional (medium) | Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closur
+  48.00 h | likely_weekend_or_scheduled_closure_provisional (medium) | Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closur
+  48.00 h | likely_weekend_or_scheduled_closure_provisional (medium) | Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closur
+  48.00 h | likely_weekend_or_scheduled_closure_provisional (medium) | Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closur
+  48.00 h | likely_weekend_or_scheduled_closure_provisional (medium) | Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closur
+  48.00 h | likely_weekend_or_scheduled_closure_provisional (medium) | Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closur
+
+Provisional classification only. Source timezone, candle boundary, and FX session calendar are unverified. Weekends and scheduled closures are NOT automatically treated as feed failures.
+
+  - Original source file is unchanged; this report is a derived artifact.
+  - Timestamps are parsed as timezone-naive until the provider timezone and candle conventions are verified.
+  - Gap classification is provisional; weekends/scheduled closures are not automatically treated as feed failures.
+======================================================================

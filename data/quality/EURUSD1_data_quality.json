@@ -1,0 +1,3833 @@
+{
+  "source": {
+    "path": "C:\\Users\\Blue Code technology\\Downloads\\ETI_working_core_v0_1\\egreed-trade-intelligence\\data\\raw\\EURUSD1.csv",
+    "name": "EURUSD1.csv",
+    "sha256": "e0ddaf6ccbf48dd306114ff8f1f875dec8bc9e987f6e13856357a04932e95ddf",
+    "rows": 100000,
+    "first_timestamp": "2026-07-20 13:33:00",
+    "last_timestamp": "2026-10-26 07:59:00",
+    "timezone": "unverified_naive",
+    "candle_boundary": "unverified",
+    "volume_semantics": "unverified",
+    "source_identity": "unverified"
+  },
+  "validation": {
+    "rows": 100000,
+    "start": "2026-07-20 13:33:00",
+    "end": "2026-10-26 07:59:00",
+    "duplicate_timestamps": 0,
+    "missing_values": 0,
+    "invalid_ohlc_rows": 0,
+    "negative_volume_rows": 0,
+    "largest_time_gap_seconds": 172920.0,
+    "status": "pass",
+    "timezone": "unverified_naive",
+    "note": "Largest time gaps need market-session-aware classification; not every gap is a data outage."
+  },
+  "gaps": {
+    "gaps": [
+      {
+        "later_index": 6170,
+        "earlier_time": "2026-07-24 20:59:00",
+        "later_time": "2026-07-26 21:01:00",
+        "gap_seconds": 172920.0,
+        "gap_hours": 48.033,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 77814,
+        "earlier_time": "2026-10-02 20:59:00",
+        "later_time": "2026-10-04 21:01:00",
+        "gap_seconds": 172920.0,
+        "gap_hours": 48.033,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 13358,
+        "earlier_time": "2026-07-31 20:59:00",
+        "later_time": "2026-08-02 21:00:00",
+        "gap_seconds": 172860.0,
+        "gap_hours": 48.017,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 20537,
+        "earlier_time": "2026-08-07 20:59:00",
+        "later_time": "2026-08-09 21:00:00",
+        "gap_seconds": 172860.0,
+        "gap_hours": 48.017,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 27688,
+        "earlier_time": "2026-08-14 20:59:00",
+        "later_time": "2026-08-16 21:00:00",
+        "gap_seconds": 172860.0,
+        "gap_hours": 48.017,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 34844,
+        "earlier_time": "2026-08-21 20:59:00",
+        "later_time": "2026-08-23 21:00:00",
+        "gap_seconds": 172860.0,
+        "gap_hours": 48.017,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 42002,
+        "earlier_time": "2026-08-28 20:59:00",
+        "later_time": "2026-08-30 21:00:00",
+        "gap_seconds": 172860.0,
+        "gap_hours": 48.017,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 49176,
+        "earlier_time": "2026-09-04 20:59:00",
+        "later_time": "2026-09-06 21:00:00",
+        "gap_seconds": 172860.0,
+        "gap_hours": 48.017,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 56304,
+        "earlier_time": "2026-09-11 20:59:00",
+        "later_time": "2026-09-13 21:00:00",
+        "gap_seconds": 172860.0,
+        "gap_hours": 48.017,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 63477,
+        "earlier_time": "2026-09-18 20:59:00",
+        "later_time": "2026-09-20 21:00:00",
+        "gap_seconds": 172860.0,
+        "gap_hours": 48.017,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 70640,
+        "earlier_time": "2026-09-25 20:59:00",
+        "later_time": "2026-09-27 21:00:00",
+        "gap_seconds": 172860.0,
+        "gap_hours": 48.017,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 84985,
+        "earlier_time": "2026-10-09 20:59:00",
+        "later_time": "2026-10-11 21:00:00",
+        "gap_seconds": 172860.0,
+        "gap_hours": 48.017,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 92152,
+        "earlier_time": "2026-10-16 20:59:00",
+        "later_time": "2026-10-18 21:00:00",
+        "gap_seconds": 172860.0,
+        "gap_hours": 48.017,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 99341,
+        "earlier_time": "2026-10-23 20:59:00",
+        "later_time": "2026-10-25 21:00:00",
+        "gap_seconds": 172860.0,
+        "gap_hours": 48.017,
+        "classification": "likely_weekend_or_scheduled_closure_provisional",
+        "confidence": "medium",
+        "reason": "Gap duration (48.0 h) is consistent with a weekend or scheduled FX market closure. Timezone unverified."
+      },
+      {
+        "later_index": 85022,
+        "earlier_time": "2026-10-11 21:43:00",
+        "later_time": "2026-10-11 21:52:00",
+        "gap_seconds": 540.0,
+        "gap_hours": 0.15,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 85009,
+        "earlier_time": "2026-10-11 21:23:00",
+        "later_time": "2026-10-11 21:30:00",
+        "gap_seconds": 420.0,
+        "gap_hours": 0.117,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 70683,
+        "earlier_time": "2026-09-27 21:46:00",
+        "later_time": "2026-09-27 21:51:00",
+        "gap_seconds": 300.0,
+        "gap_hours": 0.083,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 76380,
+        "earlier_time": "2026-10-01 20:59:00",
+        "later_time": "2026-10-01 21:04:00",
+        "gap_seconds": 300.0,
+        "gap_hours": 0.083,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 85023,
+        "earlier_time": "2026-10-11 21:52:00",
+        "later_time": "2026-10-11 21:57:00",
+        "gap_seconds": 300.0,
+        "gap_hours": 0.083,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 447,
+        "earlier_time": "2026-07-20 21:00:00",
+        "later_time": "2026-07-20 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 3308,
+        "earlier_time": "2026-07-22 21:00:00",
+        "later_time": "2026-07-22 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 10484,
+        "earlier_time": "2026-07-29 21:00:00",
+        "later_time": "2026-07-29 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 20559,
+        "earlier_time": "2026-08-09 21:22:00",
+        "later_time": "2026-08-09 21:26:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 23402,
+        "earlier_time": "2026-08-11 21:01:00",
+        "later_time": "2026-08-11 21:05:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 24831,
+        "earlier_time": "2026-08-12 21:00:00",
+        "later_time": "2026-08-12 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 26403,
+        "earlier_time": "2026-08-13 23:30:00",
+        "later_time": "2026-08-13 23:34:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 33473,
+        "earlier_time": "2026-08-20 22:04:00",
+        "later_time": "2026-08-20 22:08:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 34845,
+        "earlier_time": "2026-08-23 21:00:00",
+        "later_time": "2026-08-23 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 36275,
+        "earlier_time": "2026-08-24 21:00:00",
+        "later_time": "2026-08-24 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 36301,
+        "earlier_time": "2026-08-24 21:31:00",
+        "later_time": "2026-08-24 21:35:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 47742,
+        "earlier_time": "2026-09-03 21:00:00",
+        "later_time": "2026-09-03 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 49178,
+        "earlier_time": "2026-09-06 21:01:00",
+        "later_time": "2026-09-06 21:05:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50618,
+        "earlier_time": "2026-09-07 21:52:00",
+        "later_time": "2026-09-07 21:56:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 53436,
+        "earlier_time": "2026-09-09 21:00:00",
+        "later_time": "2026-09-09 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 54869,
+        "earlier_time": "2026-09-10 21:00:00",
+        "later_time": "2026-09-10 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 57737,
+        "earlier_time": "2026-09-14 21:00:00",
+        "later_time": "2026-09-14 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 60608,
+        "earlier_time": "2026-09-16 21:00:00",
+        "later_time": "2026-09-16 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 72070,
+        "earlier_time": "2026-09-28 21:00:00",
+        "later_time": "2026-09-28 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 77830,
+        "earlier_time": "2026-10-04 21:19:00",
+        "later_time": "2026-10-04 21:23:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 80681,
+        "earlier_time": "2026-10-06 21:00:00",
+        "later_time": "2026-10-06 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 95030,
+        "earlier_time": "2026-10-20 21:00:00",
+        "later_time": "2026-10-20 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 97905,
+        "earlier_time": "2026-10-22 21:00:00",
+        "later_time": "2026-10-22 21:04:00",
+        "gap_seconds": 240.0,
+        "gap_hours": 0.067,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 1907,
+        "earlier_time": "2026-07-21 21:32:00",
+        "later_time": "2026-07-21 21:35:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 4741,
+        "earlier_time": "2026-07-23 21:00:00",
+        "later_time": "2026-07-23 21:03:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 4785,
+        "earlier_time": "2026-07-23 21:46:00",
+        "later_time": "2026-07-23 21:49:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 17668,
+        "earlier_time": "2026-08-05 21:00:00",
+        "later_time": "2026-08-05 21:03:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 19257,
+        "earlier_time": "2026-08-06 23:36:00",
+        "later_time": "2026-08-06 23:39:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 20575,
+        "earlier_time": "2026-08-09 21:42:00",
+        "later_time": "2026-08-09 21:45:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 21940,
+        "earlier_time": "2026-08-10 20:31:00",
+        "later_time": "2026-08-10 20:34:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 26260,
+        "earlier_time": "2026-08-13 21:01:00",
+        "later_time": "2026-08-13 21:04:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 26393,
+        "earlier_time": "2026-08-13 23:18:00",
+        "later_time": "2026-08-13 23:21:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 27726,
+        "earlier_time": "2026-08-16 21:39:00",
+        "later_time": "2026-08-16 21:42:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 29118,
+        "earlier_time": "2026-08-17 21:00:00",
+        "later_time": "2026-08-17 21:03:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 32008,
+        "earlier_time": "2026-08-19 21:24:00",
+        "later_time": "2026-08-19 21:27:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 33430,
+        "earlier_time": "2026-08-20 21:13:00",
+        "later_time": "2026-08-20 21:16:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 33449,
+        "earlier_time": "2026-08-20 21:34:00",
+        "later_time": "2026-08-20 21:37:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 33466,
+        "earlier_time": "2026-08-20 21:55:00",
+        "later_time": "2026-08-20 21:58:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 36333,
+        "earlier_time": "2026-08-24 22:07:00",
+        "later_time": "2026-08-24 22:10:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 39295,
+        "earlier_time": "2026-08-26 23:41:00",
+        "later_time": "2026-08-26 23:44:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 44969,
+        "earlier_time": "2026-09-01 22:36:00",
+        "later_time": "2026-09-01 22:39:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 49182,
+        "earlier_time": "2026-09-06 21:08:00",
+        "later_time": "2026-09-06 21:11:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 49188,
+        "earlier_time": "2026-09-06 21:17:00",
+        "later_time": "2026-09-06 21:20:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 49241,
+        "earlier_time": "2026-09-06 22:16:00",
+        "later_time": "2026-09-06 22:19:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50454,
+        "earlier_time": "2026-09-07 18:42:00",
+        "later_time": "2026-09-07 18:45:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50546,
+        "earlier_time": "2026-09-07 20:30:00",
+        "later_time": "2026-09-07 20:33:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 52000,
+        "earlier_time": "2026-09-08 21:00:00",
+        "later_time": "2026-09-08 21:03:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 56305,
+        "earlier_time": "2026-09-13 21:00:00",
+        "later_time": "2026-09-13 21:03:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 56318,
+        "earlier_time": "2026-09-13 21:17:00",
+        "later_time": "2026-09-13 21:20:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 59170,
+        "earlier_time": "2026-09-15 21:00:00",
+        "later_time": "2026-09-15 21:03:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 64961,
+        "earlier_time": "2026-09-21 21:52:00",
+        "later_time": "2026-09-21 21:55:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 66339,
+        "earlier_time": "2026-09-22 21:01:00",
+        "later_time": "2026-09-22 21:04:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 66415,
+        "earlier_time": "2026-09-22 22:22:00",
+        "later_time": "2026-09-22 22:25:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 67767,
+        "earlier_time": "2026-09-23 21:00:00",
+        "later_time": "2026-09-23 21:03:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 73507,
+        "earlier_time": "2026-09-29 21:01:00",
+        "later_time": "2026-09-29 21:04:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 77819,
+        "earlier_time": "2026-10-04 21:06:00",
+        "later_time": "2026-10-04 21:09:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 77837,
+        "earlier_time": "2026-10-04 21:31:00",
+        "later_time": "2026-10-04 21:34:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 83552,
+        "earlier_time": "2026-10-08 21:01:00",
+        "later_time": "2026-10-08 21:04:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 86358,
+        "earlier_time": "2026-10-12 20:11:00",
+        "later_time": "2026-10-12 20:14:00",
+        "gap_seconds": 180.0,
+        "gap_hours": 0.05,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 420,
+        "earlier_time": "2026-07-20 20:32:00",
+        "later_time": "2026-07-20 20:34:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 525,
+        "earlier_time": "2026-07-20 22:21:00",
+        "later_time": "2026-07-20 22:23:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 526,
+        "earlier_time": "2026-07-20 22:23:00",
+        "later_time": "2026-07-20 22:25:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 534,
+        "earlier_time": "2026-07-20 22:32:00",
+        "later_time": "2026-07-20 22:34:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 540,
+        "earlier_time": "2026-07-20 22:39:00",
+        "later_time": "2026-07-20 22:41:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 591,
+        "earlier_time": "2026-07-20 23:31:00",
+        "later_time": "2026-07-20 23:33:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 594,
+        "earlier_time": "2026-07-20 23:35:00",
+        "later_time": "2026-07-20 23:37:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 600,
+        "earlier_time": "2026-07-20 23:42:00",
+        "later_time": "2026-07-20 23:44:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 1879,
+        "earlier_time": "2026-07-21 21:02:00",
+        "later_time": "2026-07-21 21:04:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 1898,
+        "earlier_time": "2026-07-21 21:22:00",
+        "later_time": "2026-07-21 21:24:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 1967,
+        "earlier_time": "2026-07-21 22:34:00",
+        "later_time": "2026-07-21 22:36:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 2001,
+        "earlier_time": "2026-07-21 23:09:00",
+        "later_time": "2026-07-21 23:11:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 2002,
+        "earlier_time": "2026-07-21 23:11:00",
+        "later_time": "2026-07-21 23:13:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 2025,
+        "earlier_time": "2026-07-21 23:35:00",
+        "later_time": "2026-07-21 23:37:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 3290,
+        "earlier_time": "2026-07-22 20:41:00",
+        "later_time": "2026-07-22 20:43:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 3310,
+        "earlier_time": "2026-07-22 21:05:00",
+        "later_time": "2026-07-22 21:07:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 3445,
+        "earlier_time": "2026-07-22 23:21:00",
+        "later_time": "2026-07-22 23:23:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 3448,
+        "earlier_time": "2026-07-22 23:25:00",
+        "later_time": "2026-07-22 23:27:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 4698,
+        "earlier_time": "2026-07-23 20:16:00",
+        "later_time": "2026-07-23 20:18:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 4843,
+        "earlier_time": "2026-07-23 22:46:00",
+        "later_time": "2026-07-23 22:48:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 4844,
+        "earlier_time": "2026-07-23 22:48:00",
+        "later_time": "2026-07-23 22:50:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 4856,
+        "earlier_time": "2026-07-23 23:01:00",
+        "later_time": "2026-07-23 23:03:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 4858,
+        "earlier_time": "2026-07-23 23:04:00",
+        "later_time": "2026-07-23 23:06:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 4870,
+        "earlier_time": "2026-07-23 23:17:00",
+        "later_time": "2026-07-23 23:19:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 6135,
+        "earlier_time": "2026-07-24 20:23:00",
+        "later_time": "2026-07-24 20:25:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 7562,
+        "earlier_time": "2026-07-27 20:12:00",
+        "later_time": "2026-07-27 20:14:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 7631,
+        "earlier_time": "2026-07-27 21:22:00",
+        "later_time": "2026-07-27 21:24:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 7919,
+        "earlier_time": "2026-07-28 02:11:00",
+        "later_time": "2026-07-28 02:13:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 9025,
+        "earlier_time": "2026-07-28 20:38:00",
+        "later_time": "2026-07-28 20:40:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 9056,
+        "earlier_time": "2026-07-28 21:10:00",
+        "later_time": "2026-07-28 21:12:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 9070,
+        "earlier_time": "2026-07-28 21:25:00",
+        "later_time": "2026-07-28 21:27:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 11923,
+        "earlier_time": "2026-07-30 21:02:00",
+        "later_time": "2026-07-30 21:04:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 11952,
+        "earlier_time": "2026-07-30 21:32:00",
+        "later_time": "2026-07-30 21:34:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 14801,
+        "earlier_time": "2026-08-03 21:02:00",
+        "later_time": "2026-08-03 21:04:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 14854,
+        "earlier_time": "2026-08-03 21:56:00",
+        "later_time": "2026-08-03 21:58:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 14880,
+        "earlier_time": "2026-08-03 22:23:00",
+        "later_time": "2026-08-03 22:25:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 14911,
+        "earlier_time": "2026-08-03 22:55:00",
+        "later_time": "2026-08-03 22:57:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 14941,
+        "earlier_time": "2026-08-03 23:26:00",
+        "later_time": "2026-08-03 23:28:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 16250,
+        "earlier_time": "2026-08-04 21:16:00",
+        "later_time": "2026-08-04 21:18:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 16306,
+        "earlier_time": "2026-08-04 22:13:00",
+        "later_time": "2026-08-04 22:15:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 16324,
+        "earlier_time": "2026-08-04 22:32:00",
+        "later_time": "2026-08-04 22:34:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 16327,
+        "earlier_time": "2026-08-04 22:36:00",
+        "later_time": "2026-08-04 22:38:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 16328,
+        "earlier_time": "2026-08-04 22:38:00",
+        "later_time": "2026-08-04 22:40:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 16331,
+        "earlier_time": "2026-08-04 22:42:00",
+        "later_time": "2026-08-04 22:44:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 17768,
+        "earlier_time": "2026-08-05 22:42:00",
+        "later_time": "2026-08-05 22:44:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 19112,
+        "earlier_time": "2026-08-06 21:07:00",
+        "later_time": "2026-08-06 21:09:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 19178,
+        "earlier_time": "2026-08-06 22:14:00",
+        "later_time": "2026-08-06 22:16:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 19191,
+        "earlier_time": "2026-08-06 22:28:00",
+        "later_time": "2026-08-06 22:30:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 19251,
+        "earlier_time": "2026-08-06 23:29:00",
+        "later_time": "2026-08-06 23:31:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 19271,
+        "earlier_time": "2026-08-06 23:52:00",
+        "later_time": "2026-08-06 23:54:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 20538,
+        "earlier_time": "2026-08-09 21:00:00",
+        "later_time": "2026-08-09 21:02:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 20566,
+        "earlier_time": "2026-08-09 21:32:00",
+        "later_time": "2026-08-09 21:34:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 20586,
+        "earlier_time": "2026-08-09 21:55:00",
+        "later_time": "2026-08-09 21:57:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 20587,
+        "earlier_time": "2026-08-09 21:57:00",
+        "later_time": "2026-08-09 21:59:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 21949,
+        "earlier_time": "2026-08-10 20:42:00",
+        "later_time": "2026-08-10 20:44:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 21968,
+        "earlier_time": "2026-08-10 21:02:00",
+        "later_time": "2026-08-10 21:04:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 22095,
+        "earlier_time": "2026-08-10 23:10:00",
+        "later_time": "2026-08-10 23:12:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 23359,
+        "earlier_time": "2026-08-11 20:15:00",
+        "later_time": "2026-08-11 20:17:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 23365,
+        "earlier_time": "2026-08-11 20:22:00",
+        "later_time": "2026-08-11 20:24:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 23375,
+        "earlier_time": "2026-08-11 20:33:00",
+        "later_time": "2026-08-11 20:35:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 23439,
+        "earlier_time": "2026-08-11 21:41:00",
+        "later_time": "2026-08-11 21:43:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 23461,
+        "earlier_time": "2026-08-11 22:04:00",
+        "later_time": "2026-08-11 22:06:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 23469,
+        "earlier_time": "2026-08-11 22:13:00",
+        "later_time": "2026-08-11 22:15:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 23481,
+        "earlier_time": "2026-08-11 22:26:00",
+        "later_time": "2026-08-11 22:28:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 23777,
+        "earlier_time": "2026-08-12 03:23:00",
+        "later_time": "2026-08-12 03:25:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 23816,
+        "earlier_time": "2026-08-12 04:03:00",
+        "later_time": "2026-08-12 04:05:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 23817,
+        "earlier_time": "2026-08-12 04:05:00",
+        "later_time": "2026-08-12 04:07:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 24893,
+        "earlier_time": "2026-08-12 22:05:00",
+        "later_time": "2026-08-12 22:07:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 24901,
+        "earlier_time": "2026-08-12 22:14:00",
+        "later_time": "2026-08-12 22:16:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 24906,
+        "earlier_time": "2026-08-12 22:20:00",
+        "later_time": "2026-08-12 22:22:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 24911,
+        "earlier_time": "2026-08-12 22:26:00",
+        "later_time": "2026-08-12 22:28:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 24950,
+        "earlier_time": "2026-08-12 23:06:00",
+        "later_time": "2026-08-12 23:08:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 24953,
+        "earlier_time": "2026-08-12 23:10:00",
+        "later_time": "2026-08-12 23:12:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 24967,
+        "earlier_time": "2026-08-12 23:25:00",
+        "later_time": "2026-08-12 23:27:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 24979,
+        "earlier_time": "2026-08-12 23:38:00",
+        "later_time": "2026-08-12 23:40:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 26220,
+        "earlier_time": "2026-08-13 20:20:00",
+        "later_time": "2026-08-13 20:22:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 26264,
+        "earlier_time": "2026-08-13 21:07:00",
+        "later_time": "2026-08-13 21:09:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 26343,
+        "earlier_time": "2026-08-13 22:27:00",
+        "later_time": "2026-08-13 22:29:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 26407,
+        "earlier_time": "2026-08-13 23:37:00",
+        "later_time": "2026-08-13 23:39:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 27702,
+        "earlier_time": "2026-08-16 21:13:00",
+        "later_time": "2026-08-16 21:15:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 27708,
+        "earlier_time": "2026-08-16 21:20:00",
+        "later_time": "2026-08-16 21:22:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 27727,
+        "earlier_time": "2026-08-16 21:42:00",
+        "later_time": "2026-08-16 21:44:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 27752,
+        "earlier_time": "2026-08-16 22:08:00",
+        "later_time": "2026-08-16 22:10:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 27775,
+        "earlier_time": "2026-08-16 22:32:00",
+        "later_time": "2026-08-16 22:34:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 27790,
+        "earlier_time": "2026-08-16 22:48:00",
+        "later_time": "2026-08-16 22:50:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 27792,
+        "earlier_time": "2026-08-16 22:51:00",
+        "later_time": "2026-08-16 22:53:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 27819,
+        "earlier_time": "2026-08-16 23:19:00",
+        "later_time": "2026-08-16 23:21:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 29091,
+        "earlier_time": "2026-08-17 20:32:00",
+        "later_time": "2026-08-17 20:34:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 29171,
+        "earlier_time": "2026-08-17 21:55:00",
+        "later_time": "2026-08-17 21:57:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 29216,
+        "earlier_time": "2026-08-17 22:41:00",
+        "later_time": "2026-08-17 22:43:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 29219,
+        "earlier_time": "2026-08-17 22:45:00",
+        "later_time": "2026-08-17 22:47:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 29221,
+        "earlier_time": "2026-08-17 22:48:00",
+        "later_time": "2026-08-17 22:50:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 29242,
+        "earlier_time": "2026-08-17 23:10:00",
+        "later_time": "2026-08-17 23:12:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 29247,
+        "earlier_time": "2026-08-17 23:16:00",
+        "later_time": "2026-08-17 23:18:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 29268,
+        "earlier_time": "2026-08-17 23:38:00",
+        "later_time": "2026-08-17 23:40:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 29454,
+        "earlier_time": "2026-08-18 02:45:00",
+        "later_time": "2026-08-18 02:47:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 30615,
+        "earlier_time": "2026-08-18 22:07:00",
+        "later_time": "2026-08-18 22:09:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 30665,
+        "earlier_time": "2026-08-18 22:58:00",
+        "later_time": "2026-08-18 23:00:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 30681,
+        "earlier_time": "2026-08-18 23:15:00",
+        "later_time": "2026-08-18 23:17:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 31985,
+        "earlier_time": "2026-08-19 21:00:00",
+        "later_time": "2026-08-19 21:02:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 32009,
+        "earlier_time": "2026-08-19 21:27:00",
+        "later_time": "2026-08-19 21:29:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 32011,
+        "earlier_time": "2026-08-19 21:30:00",
+        "later_time": "2026-08-19 21:32:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 32021,
+        "earlier_time": "2026-08-19 21:41:00",
+        "later_time": "2026-08-19 21:43:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 33398,
+        "earlier_time": "2026-08-20 20:39:00",
+        "later_time": "2026-08-20 20:41:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 33419,
+        "earlier_time": "2026-08-20 21:01:00",
+        "later_time": "2026-08-20 21:03:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 33451,
+        "earlier_time": "2026-08-20 21:38:00",
+        "later_time": "2026-08-20 21:40:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 33459,
+        "earlier_time": "2026-08-20 21:47:00",
+        "later_time": "2026-08-20 21:49:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 33549,
+        "earlier_time": "2026-08-20 23:23:00",
+        "later_time": "2026-08-20 23:25:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 34847,
+        "earlier_time": "2026-08-23 21:05:00",
+        "later_time": "2026-08-23 21:07:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 34854,
+        "earlier_time": "2026-08-23 21:13:00",
+        "later_time": "2026-08-23 21:15:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 34867,
+        "earlier_time": "2026-08-23 21:27:00",
+        "later_time": "2026-08-23 21:29:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 34873,
+        "earlier_time": "2026-08-23 21:34:00",
+        "later_time": "2026-08-23 21:36:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 34884,
+        "earlier_time": "2026-08-23 21:46:00",
+        "later_time": "2026-08-23 21:48:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 34892,
+        "earlier_time": "2026-08-23 21:55:00",
+        "later_time": "2026-08-23 21:57:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 36237,
+        "earlier_time": "2026-08-24 20:21:00",
+        "later_time": "2026-08-24 20:23:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 36293,
+        "earlier_time": "2026-08-24 21:21:00",
+        "later_time": "2026-08-24 21:23:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 36300,
+        "earlier_time": "2026-08-24 21:29:00",
+        "later_time": "2026-08-24 21:31:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 36309,
+        "earlier_time": "2026-08-24 21:42:00",
+        "later_time": "2026-08-24 21:44:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 36335,
+        "earlier_time": "2026-08-24 22:11:00",
+        "later_time": "2026-08-24 22:13:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 36366,
+        "earlier_time": "2026-08-24 22:43:00",
+        "later_time": "2026-08-24 22:45:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 36660,
+        "earlier_time": "2026-08-25 03:38:00",
+        "later_time": "2026-08-25 03:40:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 37803,
+        "earlier_time": "2026-08-25 22:42:00",
+        "later_time": "2026-08-25 22:44:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 37849,
+        "earlier_time": "2026-08-25 23:29:00",
+        "later_time": "2026-08-25 23:31:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 37850,
+        "earlier_time": "2026-08-25 23:31:00",
+        "later_time": "2026-08-25 23:33:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 37858,
+        "earlier_time": "2026-08-25 23:40:00",
+        "later_time": "2026-08-25 23:42:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 39007,
+        "earlier_time": "2026-08-26 18:50:00",
+        "later_time": "2026-08-26 18:52:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 39226,
+        "earlier_time": "2026-08-26 22:30:00",
+        "later_time": "2026-08-26 22:32:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 39240,
+        "earlier_time": "2026-08-26 22:45:00",
+        "later_time": "2026-08-26 22:47:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 39306,
+        "earlier_time": "2026-08-26 23:54:00",
+        "later_time": "2026-08-26 23:56:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 40541,
+        "earlier_time": "2026-08-27 20:30:00",
+        "later_time": "2026-08-27 20:32:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 40547,
+        "earlier_time": "2026-08-27 20:37:00",
+        "later_time": "2026-08-27 20:39:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 40569,
+        "earlier_time": "2026-08-27 21:00:00",
+        "later_time": "2026-08-27 21:02:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 40570,
+        "earlier_time": "2026-08-27 21:02:00",
+        "later_time": "2026-08-27 21:04:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 40600,
+        "earlier_time": "2026-08-27 21:33:00",
+        "later_time": "2026-08-27 21:35:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 40677,
+        "earlier_time": "2026-08-27 22:51:00",
+        "later_time": "2026-08-27 22:53:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 40968,
+        "earlier_time": "2026-08-28 03:43:00",
+        "later_time": "2026-08-28 03:45:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 41005,
+        "earlier_time": "2026-08-28 04:21:00",
+        "later_time": "2026-08-28 04:23:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 42013,
+        "earlier_time": "2026-08-30 21:10:00",
+        "later_time": "2026-08-30 21:12:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 42044,
+        "earlier_time": "2026-08-30 21:42:00",
+        "later_time": "2026-08-30 21:44:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 42048,
+        "earlier_time": "2026-08-30 21:47:00",
+        "later_time": "2026-08-30 21:49:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 43432,
+        "earlier_time": "2026-08-31 20:52:00",
+        "later_time": "2026-08-31 20:54:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 43449,
+        "earlier_time": "2026-08-31 21:10:00",
+        "later_time": "2026-08-31 21:12:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 43453,
+        "earlier_time": "2026-08-31 21:15:00",
+        "later_time": "2026-08-31 21:17:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 43523,
+        "earlier_time": "2026-08-31 22:26:00",
+        "later_time": "2026-08-31 22:28:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 43878,
+        "earlier_time": "2026-09-01 04:22:00",
+        "later_time": "2026-09-01 04:24:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 44878,
+        "earlier_time": "2026-09-01 21:03:00",
+        "later_time": "2026-09-01 21:05:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 44880,
+        "earlier_time": "2026-09-01 21:06:00",
+        "later_time": "2026-09-01 21:08:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 44994,
+        "earlier_time": "2026-09-01 23:03:00",
+        "later_time": "2026-09-01 23:05:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 45006,
+        "earlier_time": "2026-09-01 23:16:00",
+        "later_time": "2026-09-01 23:18:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 45011,
+        "earlier_time": "2026-09-01 23:22:00",
+        "later_time": "2026-09-01 23:24:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 45027,
+        "earlier_time": "2026-09-01 23:39:00",
+        "later_time": "2026-09-01 23:41:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 45134,
+        "earlier_time": "2026-09-02 01:27:00",
+        "later_time": "2026-09-02 01:29:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 45223,
+        "earlier_time": "2026-09-02 02:57:00",
+        "later_time": "2026-09-02 02:59:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 46308,
+        "earlier_time": "2026-09-02 21:03:00",
+        "later_time": "2026-09-02 21:05:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 46317,
+        "earlier_time": "2026-09-02 21:13:00",
+        "later_time": "2026-09-02 21:15:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 46445,
+        "earlier_time": "2026-09-02 23:22:00",
+        "later_time": "2026-09-02 23:24:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 47802,
+        "earlier_time": "2026-09-03 22:03:00",
+        "later_time": "2026-09-03 22:05:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 47815,
+        "earlier_time": "2026-09-03 22:17:00",
+        "later_time": "2026-09-03 22:19:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 49187,
+        "earlier_time": "2026-09-06 21:15:00",
+        "later_time": "2026-09-06 21:17:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 49191,
+        "earlier_time": "2026-09-06 21:22:00",
+        "later_time": "2026-09-06 21:24:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 49194,
+        "earlier_time": "2026-09-06 21:26:00",
+        "later_time": "2026-09-06 21:28:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 49212,
+        "earlier_time": "2026-09-06 21:45:00",
+        "later_time": "2026-09-06 21:47:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 49233,
+        "earlier_time": "2026-09-06 22:07:00",
+        "later_time": "2026-09-06 22:09:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 49266,
+        "earlier_time": "2026-09-06 22:43:00",
+        "later_time": "2026-09-06 22:45:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 49278,
+        "earlier_time": "2026-09-06 22:56:00",
+        "later_time": "2026-09-06 22:58:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 49307,
+        "earlier_time": "2026-09-06 23:26:00",
+        "later_time": "2026-09-06 23:28:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 49308,
+        "earlier_time": "2026-09-06 23:28:00",
+        "later_time": "2026-09-06 23:30:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50389,
+        "earlier_time": "2026-09-07 17:30:00",
+        "later_time": "2026-09-07 17:32:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50398,
+        "earlier_time": "2026-09-07 17:40:00",
+        "later_time": "2026-09-07 17:42:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50403,
+        "earlier_time": "2026-09-07 17:46:00",
+        "later_time": "2026-09-07 17:48:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50426,
+        "earlier_time": "2026-09-07 18:10:00",
+        "later_time": "2026-09-07 18:12:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50440,
+        "earlier_time": "2026-09-07 18:25:00",
+        "later_time": "2026-09-07 18:27:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50444,
+        "earlier_time": "2026-09-07 18:30:00",
+        "later_time": "2026-09-07 18:32:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50453,
+        "earlier_time": "2026-09-07 18:40:00",
+        "later_time": "2026-09-07 18:42:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50458,
+        "earlier_time": "2026-09-07 18:48:00",
+        "later_time": "2026-09-07 18:50:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50475,
+        "earlier_time": "2026-09-07 19:06:00",
+        "later_time": "2026-09-07 19:08:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50478,
+        "earlier_time": "2026-09-07 19:10:00",
+        "later_time": "2026-09-07 19:12:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50483,
+        "earlier_time": "2026-09-07 19:16:00",
+        "later_time": "2026-09-07 19:18:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50511,
+        "earlier_time": "2026-09-07 19:45:00",
+        "later_time": "2026-09-07 19:47:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50517,
+        "earlier_time": "2026-09-07 19:52:00",
+        "later_time": "2026-09-07 19:54:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50521,
+        "earlier_time": "2026-09-07 19:57:00",
+        "later_time": "2026-09-07 19:59:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50526,
+        "earlier_time": "2026-09-07 20:03:00",
+        "later_time": "2026-09-07 20:05:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50529,
+        "earlier_time": "2026-09-07 20:07:00",
+        "later_time": "2026-09-07 20:09:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50531,
+        "earlier_time": "2026-09-07 20:10:00",
+        "later_time": "2026-09-07 20:12:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50532,
+        "earlier_time": "2026-09-07 20:12:00",
+        "later_time": "2026-09-07 20:14:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50539,
+        "earlier_time": "2026-09-07 20:20:00",
+        "later_time": "2026-09-07 20:22:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50541,
+        "earlier_time": "2026-09-07 20:23:00",
+        "later_time": "2026-09-07 20:25:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50543,
+        "earlier_time": "2026-09-07 20:26:00",
+        "later_time": "2026-09-07 20:28:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50552,
+        "earlier_time": "2026-09-07 20:38:00",
+        "later_time": "2026-09-07 20:40:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50559,
+        "earlier_time": "2026-09-07 20:46:00",
+        "later_time": "2026-09-07 20:48:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50560,
+        "earlier_time": "2026-09-07 20:48:00",
+        "later_time": "2026-09-07 20:50:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50563,
+        "earlier_time": "2026-09-07 20:52:00",
+        "later_time": "2026-09-07 20:54:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50582,
+        "earlier_time": "2026-09-07 21:12:00",
+        "later_time": "2026-09-07 21:14:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50592,
+        "earlier_time": "2026-09-07 21:23:00",
+        "later_time": "2026-09-07 21:25:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50604,
+        "earlier_time": "2026-09-07 21:36:00",
+        "later_time": "2026-09-07 21:38:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50617,
+        "earlier_time": "2026-09-07 21:50:00",
+        "later_time": "2026-09-07 21:52:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50621,
+        "earlier_time": "2026-09-07 21:58:00",
+        "later_time": "2026-09-07 22:00:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 50628,
+        "earlier_time": "2026-09-07 22:06:00",
+        "later_time": "2026-09-07 22:08:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 51966,
+        "earlier_time": "2026-09-08 20:25:00",
+        "later_time": "2026-09-08 20:27:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 52376,
+        "earlier_time": "2026-09-09 03:18:00",
+        "later_time": "2026-09-09 03:20:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 53389,
+        "earlier_time": "2026-09-09 20:12:00",
+        "later_time": "2026-09-09 20:14:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 53459,
+        "earlier_time": "2026-09-09 21:26:00",
+        "later_time": "2026-09-09 21:28:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 53488,
+        "earlier_time": "2026-09-09 21:56:00",
+        "later_time": "2026-09-09 21:58:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 53498,
+        "earlier_time": "2026-09-09 22:07:00",
+        "later_time": "2026-09-09 22:09:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 53877,
+        "earlier_time": "2026-09-10 04:27:00",
+        "later_time": "2026-09-10 04:29:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 54943,
+        "earlier_time": "2026-09-10 22:17:00",
+        "later_time": "2026-09-10 22:19:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 56308,
+        "earlier_time": "2026-09-13 21:05:00",
+        "later_time": "2026-09-13 21:07:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 56309,
+        "earlier_time": "2026-09-13 21:07:00",
+        "later_time": "2026-09-13 21:09:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 56319,
+        "earlier_time": "2026-09-13 21:20:00",
+        "later_time": "2026-09-13 21:22:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 56320,
+        "earlier_time": "2026-09-13 21:22:00",
+        "later_time": "2026-09-13 21:24:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 57812,
+        "earlier_time": "2026-09-14 22:18:00",
+        "later_time": "2026-09-14 22:20:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 57821,
+        "earlier_time": "2026-09-14 22:28:00",
+        "later_time": "2026-09-14 22:30:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 58219,
+        "earlier_time": "2026-09-15 05:07:00",
+        "later_time": "2026-09-15 05:09:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 59148,
+        "earlier_time": "2026-09-15 20:37:00",
+        "later_time": "2026-09-15 20:39:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 60635,
+        "earlier_time": "2026-09-16 21:30:00",
+        "later_time": "2026-09-16 21:32:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 60751,
+        "earlier_time": "2026-09-16 23:27:00",
+        "later_time": "2026-09-16 23:29:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 62045,
+        "earlier_time": "2026-09-17 21:02:00",
+        "later_time": "2026-09-17 21:04:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 62068,
+        "earlier_time": "2026-09-17 21:26:00",
+        "later_time": "2026-09-17 21:28:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 62072,
+        "earlier_time": "2026-09-17 21:31:00",
+        "later_time": "2026-09-17 21:33:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 62152,
+        "earlier_time": "2026-09-17 22:52:00",
+        "later_time": "2026-09-17 22:54:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 62168,
+        "earlier_time": "2026-09-17 23:09:00",
+        "later_time": "2026-09-17 23:11:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 63478,
+        "earlier_time": "2026-09-20 21:00:00",
+        "later_time": "2026-09-20 21:02:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 63483,
+        "earlier_time": "2026-09-20 21:06:00",
+        "later_time": "2026-09-20 21:08:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 63501,
+        "earlier_time": "2026-09-20 21:25:00",
+        "later_time": "2026-09-20 21:27:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 63533,
+        "earlier_time": "2026-09-20 21:58:00",
+        "later_time": "2026-09-20 22:00:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 63633,
+        "earlier_time": "2026-09-20 23:39:00",
+        "later_time": "2026-09-20 23:41:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 63634,
+        "earlier_time": "2026-09-20 23:41:00",
+        "later_time": "2026-09-20 23:43:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 64868,
+        "earlier_time": "2026-09-21 20:16:00",
+        "later_time": "2026-09-21 20:18:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 64951,
+        "earlier_time": "2026-09-21 21:40:00",
+        "later_time": "2026-09-21 21:42:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 64956,
+        "earlier_time": "2026-09-21 21:46:00",
+        "later_time": "2026-09-21 21:48:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 64981,
+        "earlier_time": "2026-09-21 22:14:00",
+        "later_time": "2026-09-21 22:16:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 65002,
+        "earlier_time": "2026-09-21 22:36:00",
+        "later_time": "2026-09-21 22:38:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 65005,
+        "earlier_time": "2026-09-21 22:40:00",
+        "later_time": "2026-09-21 22:42:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 65009,
+        "earlier_time": "2026-09-21 22:45:00",
+        "later_time": "2026-09-21 22:47:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 65028,
+        "earlier_time": "2026-09-21 23:05:00",
+        "later_time": "2026-09-21 23:07:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 65048,
+        "earlier_time": "2026-09-21 23:26:00",
+        "later_time": "2026-09-21 23:28:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 65065,
+        "earlier_time": "2026-09-21 23:44:00",
+        "later_time": "2026-09-21 23:46:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 65066,
+        "earlier_time": "2026-09-21 23:46:00",
+        "later_time": "2026-09-21 23:48:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 65361,
+        "earlier_time": "2026-09-22 04:42:00",
+        "later_time": "2026-09-22 04:44:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 66341,
+        "earlier_time": "2026-09-22 21:05:00",
+        "later_time": "2026-09-22 21:07:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 66343,
+        "earlier_time": "2026-09-22 21:08:00",
+        "later_time": "2026-09-22 21:10:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 66378,
+        "earlier_time": "2026-09-22 21:44:00",
+        "later_time": "2026-09-22 21:46:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 66417,
+        "earlier_time": "2026-09-22 22:26:00",
+        "later_time": "2026-09-22 22:28:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 66427,
+        "earlier_time": "2026-09-22 22:37:00",
+        "later_time": "2026-09-22 22:39:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 66444,
+        "earlier_time": "2026-09-22 22:55:00",
+        "later_time": "2026-09-22 22:57:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 66481,
+        "earlier_time": "2026-09-22 23:33:00",
+        "later_time": "2026-09-22 23:35:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 67878,
+        "earlier_time": "2026-09-23 22:53:00",
+        "later_time": "2026-09-23 22:55:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 69282,
+        "earlier_time": "2026-09-24 22:18:00",
+        "later_time": "2026-09-24 22:20:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 69357,
+        "earlier_time": "2026-09-24 23:34:00",
+        "later_time": "2026-09-24 23:36:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 70604,
+        "earlier_time": "2026-09-25 20:22:00",
+        "later_time": "2026-09-25 20:24:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 70643,
+        "earlier_time": "2026-09-27 21:02:00",
+        "later_time": "2026-09-27 21:04:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 70652,
+        "earlier_time": "2026-09-27 21:12:00",
+        "later_time": "2026-09-27 21:14:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 70666,
+        "earlier_time": "2026-09-27 21:27:00",
+        "later_time": "2026-09-27 21:29:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 70681,
+        "earlier_time": "2026-09-27 21:43:00",
+        "later_time": "2026-09-27 21:45:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 70685,
+        "earlier_time": "2026-09-27 21:52:00",
+        "later_time": "2026-09-27 21:54:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 70687,
+        "earlier_time": "2026-09-27 21:55:00",
+        "later_time": "2026-09-27 21:57:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 70688,
+        "earlier_time": "2026-09-27 21:57:00",
+        "later_time": "2026-09-27 21:59:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 72229,
+        "earlier_time": "2026-09-28 23:42:00",
+        "later_time": "2026-09-28 23:44:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 73574,
+        "earlier_time": "2026-09-29 22:10:00",
+        "later_time": "2026-09-29 22:12:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 73577,
+        "earlier_time": "2026-09-29 22:14:00",
+        "later_time": "2026-09-29 22:16:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 74942,
+        "earlier_time": "2026-09-30 21:00:00",
+        "later_time": "2026-09-30 21:02:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 76406,
+        "earlier_time": "2026-10-01 21:29:00",
+        "later_time": "2026-10-01 21:31:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 76409,
+        "earlier_time": "2026-10-01 21:33:00",
+        "later_time": "2026-10-01 21:35:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 77815,
+        "earlier_time": "2026-10-04 21:01:00",
+        "later_time": "2026-10-04 21:03:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 77832,
+        "earlier_time": "2026-10-04 21:24:00",
+        "later_time": "2026-10-04 21:26:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 77834,
+        "earlier_time": "2026-10-04 21:27:00",
+        "later_time": "2026-10-04 21:29:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 77847,
+        "earlier_time": "2026-10-04 21:43:00",
+        "later_time": "2026-10-04 21:45:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 79391,
+        "earlier_time": "2026-10-05 23:28:00",
+        "later_time": "2026-10-05 23:30:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 80660,
+        "earlier_time": "2026-10-06 20:38:00",
+        "later_time": "2026-10-06 20:40:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 80751,
+        "earlier_time": "2026-10-06 22:13:00",
+        "later_time": "2026-10-06 22:15:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 80768,
+        "earlier_time": "2026-10-06 22:31:00",
+        "later_time": "2026-10-06 22:33:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 80781,
+        "earlier_time": "2026-10-06 22:45:00",
+        "later_time": "2026-10-06 22:47:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 80784,
+        "earlier_time": "2026-10-06 22:49:00",
+        "later_time": "2026-10-06 22:51:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 80817,
+        "earlier_time": "2026-10-06 23:23:00",
+        "later_time": "2026-10-06 23:25:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 80893,
+        "earlier_time": "2026-10-07 00:40:00",
+        "later_time": "2026-10-07 00:42:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 82115,
+        "earlier_time": "2026-10-07 21:03:00",
+        "later_time": "2026-10-07 21:05:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 83596,
+        "earlier_time": "2026-10-08 21:47:00",
+        "later_time": "2026-10-08 21:49:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 83636,
+        "earlier_time": "2026-10-08 22:28:00",
+        "later_time": "2026-10-08 22:30:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 83693,
+        "earlier_time": "2026-10-08 23:26:00",
+        "later_time": "2026-10-08 23:28:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 85013,
+        "earlier_time": "2026-10-11 21:33:00",
+        "later_time": "2026-10-11 21:35:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 86408,
+        "earlier_time": "2026-10-12 21:03:00",
+        "later_time": "2026-10-12 21:05:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 86417,
+        "earlier_time": "2026-10-12 21:13:00",
+        "later_time": "2026-10-12 21:15:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 86420,
+        "earlier_time": "2026-10-12 21:17:00",
+        "later_time": "2026-10-12 21:19:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 86421,
+        "earlier_time": "2026-10-12 21:19:00",
+        "later_time": "2026-10-12 21:21:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 86505,
+        "earlier_time": "2026-10-12 22:44:00",
+        "later_time": "2026-10-12 22:46:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 86506,
+        "earlier_time": "2026-10-12 22:46:00",
+        "later_time": "2026-10-12 22:48:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 86544,
+        "earlier_time": "2026-10-12 23:25:00",
+        "later_time": "2026-10-12 23:27:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 87838,
+        "earlier_time": "2026-10-13 21:00:00",
+        "later_time": "2026-10-13 21:02:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 87958,
+        "earlier_time": "2026-10-13 23:01:00",
+        "later_time": "2026-10-13 23:03:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 87964,
+        "earlier_time": "2026-10-13 23:08:00",
+        "later_time": "2026-10-13 23:10:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 87966,
+        "earlier_time": "2026-10-13 23:11:00",
+        "later_time": "2026-10-13 23:13:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 87968,
+        "earlier_time": "2026-10-13 23:14:00",
+        "later_time": "2026-10-13 23:16:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 93595,
+        "earlier_time": "2026-10-19 21:02:00",
+        "later_time": "2026-10-19 21:04:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 93634,
+        "earlier_time": "2026-10-19 21:42:00",
+        "later_time": "2026-10-19 21:44:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 93716,
+        "earlier_time": "2026-10-19 23:05:00",
+        "later_time": "2026-10-19 23:07:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 96549,
+        "earlier_time": "2026-10-21 22:22:00",
+        "later_time": "2026-10-21 22:24:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 96625,
+        "earlier_time": "2026-10-21 23:39:00",
+        "later_time": "2026-10-21 23:41:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      },
+      {
+        "later_index": 99770,
+        "earlier_time": "2026-10-26 04:08:00",
+        "later_time": "2026-10-26 04:10:00",
+        "gap_seconds": 120.0,
+        "gap_hours": 0.033,
+        "classification": "potential_data_gap_review",
+        "confidence": "low",
+        "reason": "Gap larger than expected interval and not consistent with a provisional weekend closure. Requires manual review against the market calendar and source timezone."
+      }
+    ],
+    "total_gaps": 376,
+    "largest_gap_seconds": 172920.0,
+    "expected_interval_seconds": 60.0,
+    "weekend_gap_hours": [
+      36.0,
+      84.0
+    ],
+    "classification_note": "Provisional classification only. Source timezone, candle boundary, and FX session calendar are unverified. Weekends and scheduled closures are NOT automatically treated as feed failures."
+  },
+  "suspicious_prices": {
+    "suspicious_return_rows": 0,
+    "max_abs_return_pct": 0.3545529239452727,
+    "threshold_pct": 5.0,
+    "first_suspicious_index": null
+  },
+  "order_check": {
+    "rows_read": 100000,
+    "out_of_order_rows": 0,
+    "is_monotonic_non_decreasing": true,
+    "first_raw_time": "2026-07-20 13:33:00",
+    "last_raw_time": "2026-10-26 07:59:00"
+  },
+  "documentation": {
+    "verified": [],
+    "unknown": [
+      "source_timestamp_timezone",
+      "candle_boundary_convention",
+      "volume_semantics_tick_vs_actual",
+      "source_provider_identity"
+    ],
+    "assumed": [
+      "headerless_tab_delimited_ohlcv_format",
+      "columns_time_open_high_low_close_volume",
+      "daily_candle_boundary_at_00_00_source_local_provisional",
+      "fx_weekend_closure_duration_provisional"
+    ],
+    "notes": [
+      "Original source file is unchanged; this report is a derived artifact.",
+      "Timestamps are parsed as timezone-naive until the provider timezone and candle conventions are verified.",
+      "Gap classification is provisional; weekends/scheduled closures are not automatically treated as feed failures."
+    ]
+  },
+  "generated_at": "2026-10-26T13:20:30.929001+00:00"
+}
